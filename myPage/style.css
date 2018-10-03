@@ -1,0 +1,252 @@
+/*ноутбуки*/
+@media (max-width: 992px) {
+    
+}/*планшеты*/
+@media (max-width: 768px) {
+ .row1{
+	min-height:200px;
+	min-width:200px;
+	}  
+	#tittle{
+margin-bottom:10px;	
+}
+.first{
+	max-width:1920px;
+	min-height:800px;
+}
+.little{
+
+	width:20%;
+	max-width:150px;
+	min-height:100px;
+}
+}/*смартфоны*/
+@media (max-width: 480px) {
+  .row1{
+		min-height:70px;
+		min-width:100px;
+		} 
+	#tittle{
+margin-bottom:5px;	
+}
+
+.first{
+	max-width:960px;
+	min-height:600px;
+}
+	.little{
+	width:20%;
+	max-width:150px;
+	min-height:80px;
+}
+}
+-webkit-box-sizing:border-box;
+/*-moz-box-sizing:border-box;
+-box-sizing:border-box;*/
+.first{
+	max-width:1520px;
+	min-height:1930px;
+	margin: auto;	
+}
+.second{
+	max-width:900px;
+	margin: 0 auto;
+}
+.row1{
+	min-width:300px;
+	min-height:300px;
+	float:left;
+}
+.little{
+
+	width:20%;
+	max-width:150px;
+	min-height:100px;
+	float:left;
+	margin-left:1%;
+	margin-right:1%;
+}
+.image{
+	width:90%;
+	margin-left:1%;
+	margin-right:1%;
+	max-width:200px;
+	min-height:90px;
+	/*float:left;*/
+	
+	height:auto;
+}
+img{
+	display:inline-block;
+	max-width:100%;
+	height:auto;
+	/*float:left;*/
+	margin:0 10px 10px 0;
+}
+#tittle{
+margin-bottom:20px;	
+}
+span{
+	display:block;
+	margin:0 auto;
+	text-align: center;
+}
+.footer{
+	width: 1920px;
+	height:159px;
+	}
+	.header{
+	width: 1920px;
+	height:163px;
+	}
+	.map{
+	width: 1920px;
+	height:500px;	
+	}
+	.product{
+	height:383px;
+
+	}
+	.about{
+	height:225px;	
+	}
+	.news{
+	height:500px;	
+	}
+	.row1p{
+		
+	margin-left:20%;
+	}
+	.littlep{
+		float:left;
+	width:25%;
+margin-left:1%;
+margin-right:1%;
+border:	#DCE1E6;
+	}
+	.littleh{
+		float:left;
+	width:18%;
+margin-left:1%;
+margin-right:1%;
+border:	#DCE1E6;
+	}
+	.littlef{
+		float:left;
+	width:11%;
+margin-left:1%;
+margin-right:1%;
+border:	#DCE1E6;
+	}
+	#up{
+	height:120px;	
+	}
+	#down{
+	high:px;	
+	}
+	.downlit{
+		float:left;
+	width:18%;
+margin-left:1%;
+margin-right:1%;
+border:	#DCE1E6;
+	}
+	.textdown{
+	text-align:centre;	
+	}
+	.phone{
+	font-family:Clear Sans;
+		font-style:bold;
+		font-size:16px;
+		line-height:19px;
+		text-align:left;	
+	}
+	.row2{
+	width:100%;	
+	float:left;
+	}
+	.row21{
+	width:50%;
+	float:left;
+	}
+	.prodtext{
+		font-family:Clear Sans;
+		font-style:Regular;
+		font-size:14px;
+		line-height:16px;
+		text-align:left;
+				}
+				.maintext{
+					
+		font-family:Clear Sans;
+		font-style:Regular;
+		font-size:36px;
+		line-height:42px;
+		text-align:centre;
+				}
+				#mainabout{
+				
+		font-family:Clear Sans;
+		font-style:Regular;
+		font-size:24px;
+		line-height:28px;
+		text-align:centre;
+				}
+				#textabout{
+		font-family:Clear Sans;
+		font-style:Regular;
+		font-size:14px;
+		line-height:16px;
+		text-align:justify;
+					
+				}
+				.mainprod{
+		font-family:Clear Sans;
+		font-style:bold;
+		font-size:16px;
+		line-height:19px;
+		text-align:left;
+				
+				}
+				.mainnew{
+		font-family:Clear Sans;
+		font-style:Regular;
+		font-size:14px;
+		line-height:16px;
+		text-align:center;
+				}
+				.textnew{
+		font-family:Clear Sans;
+		font-style:Regular;
+		font-size:16px;
+		line-height:19px;
+		text-align:center;
+				}
+				#room{
+		font-family:Clear Sans;
+		font-style:Regular;
+		font-size:14px;
+		line-height:16px;
+		text-align:justify;
+				}
+				.texthead{
+		font-family:Clear Sans;
+		font-style:bold;
+		font-size:14px;
+		line-height:16px;
+		text-align:right;
+				}
+				.button1 {
+					margin: auto;
+					padding:1%;
+					margin:1%;
+    background-color: white;
+    color: #1AB0CE;
+    border: 2px solid #1AB0CE;
+	text-align:center;
+				}
+				.button2 {
+	padding:1%;
+    float: left;
+	background-color: white;
+    border: 1px solid #E8EDF2;
