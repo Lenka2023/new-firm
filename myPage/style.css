@@ -9,11 +9,11 @@
 @media (max-width: 992px) {
  .first{
 	max-width:990px;
-	
+	min-height:1960px;
 } 
  .map{
 	width: 100%;
-	height:255px;
+	height:565px;
 	}
 .littlep{
 	float:left;
@@ -403,7 +403,7 @@ height:auto;
 	#imgLine{
 	width:9%;		
 	position: absolute;
-        top: 40%;
+        margin-top: 160px;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -413,7 +413,7 @@ height:auto;
 	.map{
 	width: 100%;
 	height:565px;
-	z-index:1;
+	
 	}
 	
 	
