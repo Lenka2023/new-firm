@@ -98,19 +98,7 @@
         transform: translate(-50%, -50%);
 		height:auto;
 	}
-	#print{
-	font-family: Clear Sans;
-font-weight: Bold;
-font-size: 28px;
-line-height: 23px;
-text-align: Center;	
-color:#FFFFFF;
-position: absolute;
-top: 38%;
-left: 50%;
-margin-right: -50%;
-transform: translate(-50%, -50%);	
-	}
+	
 /*планшеты*/
 @media (max-width: 768px) {
  
@@ -397,7 +385,7 @@ height:auto;
 	.imgcall{
 		width:9%;
 	position: absolute;
-        top: 680px;
+        margin-top:260px;
         left: 95%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -406,7 +394,7 @@ height:auto;
 	.imgcallf{
 		width:9%;
 		position: absolute;
-        top: 1650px;
+        margin-bottom:210px;
         left: 95%;
         margin-right: -50%;
         transform: translate(-50%, -50%);	
@@ -427,32 +415,8 @@ height:auto;
 	height:565px;
 	z-index:1;
 	}
-	#print{
-	font-family: Clear Sans;
-font-weight: Bold;
-font-size: 57px;
-line-height: 67px;
-text-align: Center;	
-color:#FFFFFF;
-position: absolute;
-top: 35%;
-left: 50%;
-margin-right: -50%;
-transform: translate(-50%, -50%);	
-	}
-	#deliver{
-font-family: Clear Sans;
-font-style: Regular;
-font-size: 24px;
-line-height: 28px;
-text-align: Center;
-color:#FFFFFF;
-position: absolute;
-top: 45%;
-left: 50%;
-margin-right: -50%;
-transform: translate(-50%, -50%);
-	}
+	
+	
 	#shop{
 	width:20%;
 	height:auto;	
@@ -492,4 +456,23 @@ height:auto;
 #search{
 float:right;
 	width:20%;
+}
+#H1{
+width:78%;
+	position: absolute;
+       
+		margin-top:113px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+		height:auto;	
+}
+#H2{
+width:48%;
+	position: absolute;
+        margin-top:201px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+		height:auto;	
 }
