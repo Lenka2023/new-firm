@@ -3,10 +3,7 @@
 	max-width:1920px;
 	min-height:1960px;
 }
- .header{
-	width: 100%;
-	height:163px;
-	}  
+ 
 }
 /*ноутбуки*/
 @media (max-width: 992px) {
@@ -136,7 +133,6 @@ transform: translate(-50%, -50%);
 	min-height:600px;
 }
 .row1p{
-	
 	margin-left:1%;
 	}	
 }
@@ -170,6 +166,7 @@ span{
 	}
 	
 	.product{
+	width: 100%;
 	height:383px;
 
 	}
@@ -364,12 +361,10 @@ border:	#DCE1E6;
 border: 1px solid #1AB0CE;
 color: #1AB0CE;
 }
-#down{
 
-}
 #button2{
 	
-	width:125%;
+	width:74%;
 text-align:left;
 float:left;
 
@@ -429,7 +424,7 @@ height:auto;
 	
 	.map{
 	width: 100%;
-	height:505px;
+	height:565px;
 	z-index:1;
 	}
 	#print{
@@ -496,7 +491,5 @@ height:auto;
 }
 #search{
 float:right;
-	width:25%;
-margin-left:27%;
-	
+	width:20%;
 }
