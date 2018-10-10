@@ -1,26 +1,25 @@
 @media (min-width: 1000px) {
  .first{
-	 background-color:yellow;
 	max-width:1920px;
 	min-height:1960px;
 }
  .imgcall{
-		width:9%;
+	width:9%;
 	position: absolute;
-        top: 442px;
-        left: 85%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		height:auto;
+	top: 442px;
+	left: 85%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	height:auto;
 	}
 	.imgcallf{
-		width:9%;
+	width:9%;
 	position: absolute;
-        top: 442px;
-        left: 85%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		height:auto;
+	top: 442px;
+	left: 85%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	height:auto;
 	}				
 
 //-webkit-box-sizing:border-box;
@@ -90,22 +89,22 @@ margin-right:1%;
 		
 	}
 	.littleh{
-		float:left;
+	float:left;
 	width:18%;
-margin-left:1%;
-margin-right:1%;
-border:	#DCE1E6;
+	margin-left:1%;
+	margin-right:1%;
+	border:	#DCE1E6;
 	}
 	.print{
 		width:100%;
 		height:auto;
 	}
 	.littlef{
-		float:left;
+	float:left;
 	width:12%;
-margin-left:1%;
-margin-right:1%;
-border:	#DCE1E6;
+	margin-left:1%;
+	margin-right:1%;
+	border:	#DCE1E6;
 	}
 	#up{
 	height:120px;	
@@ -252,8 +251,8 @@ color: #1AB0CE;
 #button2{
 	
 	width:74%;
-text-align:left;
-float:left;
+	text-align:left;
+	float:left;
 
 }	
 	.left{
@@ -262,19 +261,19 @@ float:left;
 		}
 	.leftp{
 		width:18%;
-	float:left;	
-	margin-left:1%;
-	height:auto;
+		float:left;	
+		margin-left:1%;
+		height:auto;
 	}
 	.right{
-		width:10%;
+	width:10%;
 	float:right;
-margin-left:1%;	
-height:auto;
+	margin-left:1%;	
+	height:auto;
 	}
 	#imgbutt{
 		width:14%;
-	position: absolute;
+		position: absolute;
         top: 70%;
         left: 50%;
         margin-right: -50%;
@@ -283,7 +282,7 @@ height:auto;
 	}
 	.imgcall{
 		width:9%;
-	position: absolute;
+		position: absolute;
         margin-top:260px;
         left: 95%;
         margin-right: -50%;
@@ -293,15 +292,15 @@ height:auto;
 	.imgcallf{
 		width:9%;
 		position: absolute;
-       top:1726px;
+        top:1726px;
         left: 95%;
         margin-right: -50%;
         transform: translate(-50%, -50%);	
 		height:auto;
 	}
 	#imgLine{
-	width:9%;		
-	position: absolute;
+		width:9%;		
+		position: absolute;
         margin-top: 160px;
         left: 50%;
         margin-right: -50%;
@@ -326,8 +325,8 @@ margin:0 10px 10px 0;
 height:auto;
 	}
 	#Phonesimg{
-	width:15%;		
-	position: absolute;
+		width:15%;		
+		position: absolute;
         top: 22%;
         left: 74%;
         margin-right: -50%;
@@ -353,22 +352,21 @@ height:auto;
     padding: 12px 20px 12px 40px;
 }
 #search{
-float:right;
+	float:right;
 	width:20%;
 }
 #H1{
-width:78%;
+	width:78%;
 	position: absolute;
-       
-		margin-top:113px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		height:auto;	
+	margin-top:113px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	height:auto;	
 }
 #H2{
-width:48%;
-	position: absolute;
+		width:48%;
+		position: absolute;
         margin-top:201px;
         left: 50%;
         margin-right: -50%;
@@ -380,7 +378,6 @@ width:48%;
 /*ноутбуки*/
 @media (min-width: 768px) and (max-width: 999px) {
  .first{
-	background-color:red;
 	max-width:990px;
 	min-height:1515px;
 	
@@ -395,7 +392,7 @@ width:48%;
 	}
 	#imgbutt{
 		width:14%;
-	position: absolute;
+		position: absolute;
         top: 61%;
         left: 50%;
         margin-right: -50%;
@@ -403,8 +400,8 @@ width:48%;
 		height:auto;
 	}
 	#imgLine{
-	width:9%;		
-	position: absolute;
+		width:9%;		
+		position: absolute;
         margin-top: 138px;
         left: 50%;
         margin-right: -50%;
@@ -481,29 +478,29 @@ width:48%;
 	width:25%;
 	height:25%;
 	margin-left:1%;
-margin-right:1%;
+	margin-right:1%;
 	}
 	.littlen:hover{
 	border: 2px solid #1AB0CE;
 		
 	}
 	.littleh{
-		float:left;
+	float:left;
 	width:18%;
-margin-left:1%;
-margin-right:1%;
-border:	#DCE1E6;
+	margin-left:1%;
+	margin-right:1%;
+	border:	#DCE1E6;
 	}
 	.print{
 		width:100%;
 		height:auto;
 	}
 	.littlef{
-		float:left;
+	float:left;
 	width:12%;
-margin-left:1%;
-margin-right:1%;
-border:	#DCE1E6;
+	margin-left:1%;
+	margin-right:1%;
+	border:	#DCE1E6;
 	}
 	#up{
 	height:120px;	
@@ -614,7 +611,7 @@ border:	#DCE1E6;
 				}
 .imgcall{
 		width:9%;
-	position: absolute;
+		position: absolute;
         top: 6%;
         left: 85%;
         margin-right: -50%;
@@ -623,7 +620,7 @@ border:	#DCE1E6;
 	}
 	.imgcallf{
 		width:9%;
-	position: absolute;
+		position: absolute;
         top: 442px;
         left: 85%;
         margin-right: -50%;
@@ -635,13 +632,13 @@ border:	#DCE1E6;
 	height:auto;	
 	}
 	#Rectangleimg{
-width:100%;	
-margin:0 10px 10px 0;	
-height:auto;
+		width:100%;	
+		margin:0 10px 10px 0;	
+		height:auto;
 	}
 	#Phonesimg{
-	width:15%;		
-	position: absolute;
+		width:15%;		
+		position: absolute;
         top: 22%;
         left: 74%;
         margin-right: -50%;
@@ -667,27 +664,26 @@ height:auto;
     padding: 12px 20px 12px 40px;
 }
 #search{
-float:right;
+	float:right;
 	width:20%;
 }
 #H1{
-width:78%;
+	width:78%;
 	position: absolute;
-       
-		margin-top:113px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		height:auto;	
+	margin-top:113px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	height:auto;	
 }
 #H2{
-width:48%;
+	width:48%;
 	position: absolute;
-        margin-top:164px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		height:auto;	
+	margin-top:164px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	height:auto;	
 }
 }	
 /*планшеты*/
@@ -695,12 +691,10 @@ width:48%;
  
 	
 .first{
-	background-color:blue;
 	max-width:760px;
 	
 }
 .row1p{
-	
 	margin-left:2%;
 	}
 	.header{
@@ -722,7 +716,7 @@ width:48%;
 	}
 	#imgbutt{
 		width:14%;
-	position: absolute;
+		position: absolute;
         top: 64%;
         left: 50%;
         margin-right: -50%;
@@ -845,29 +839,29 @@ width:48%;
 				text-align: center;	
 				
 				}
-				#shop{
-	width:20%;
-	height:auto;	
-	}
-	#Rectangleimg{
-width:100%;	
-margin:0 10px 10px 0;	
-height:auto;
-	}
-	#Phonesimg{
-	width:15%;		
-	position: absolute;
-        top: 22%;
-        left: 74%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);	
-		height:auto;
-	}
+			#shop{
+				width:20%;
+				height:auto;	
+				}
+			#Rectangleimg{
+				width:100%;	
+				margin:0 10px 10px 0;	
+				height:auto;
+					}
+			#Phonesimg{
+				width:15%;		
+				position: absolute;
+				top: 22%;
+				left: 74%;
+				margin-right: -50%;
+				transform: translate(-50%, -50%);	
+				height:auto;
+			}
 				.footer{
-	padding:10px;
-	width: 100%;
-	height:100px;
-	background-color: #DCE1E6;
+					padding:10px;
+					width: 100%;
+					height:100px;
+					background-color: #DCE1E6;
 }
 .littlen{
 	float:left;
@@ -881,22 +875,22 @@ margin-right:1%;
 		
 	}
 	.littleh{
-		float:left;
+	float:left;
 	width:18%;
-margin-left:1%;
-margin-right:1%;
-border:	#DCE1E6;
+	margin-left:1%;
+	margin-right:1%;
+	border:	#DCE1E6;
 	}
 	.print{
 		width:100%;
 		height:auto;
 	}
 	.littlef{
-		float:left;
+	float:left;
 	width:16%;
-margin-left:1%;
-margin-right:1%;
-border:	#DCE1E6;
+	margin-left:1%;
+	margin-right:1%;
+	border:	#DCE1E6;
 	}
 	#up{
 	height:120px;	
@@ -938,7 +932,7 @@ border:	#DCE1E6;
 
 .imgcall{
 		width:9%;
-	position: absolute;
+		position: absolute;
         margin-top: 225px;
         left: 94%;
         margin-right: -50%;
@@ -947,7 +941,7 @@ border:	#DCE1E6;
 	}
 	.imgcallf{
 		width:9%;
-	position: absolute;
+		position: absolute;
         top: 1184px;
         left: 94%;
         margin-right: -50%;
@@ -955,8 +949,8 @@ border:	#DCE1E6;
 		height:auto;
 	}
 #imgLine{
-	width:9%;		
-	position: absolute;
+		width:9%;		
+		position: absolute;
         margin-top: 92px;
         left: 50%;
         margin-right: -50%;
@@ -964,15 +958,14 @@ border:	#DCE1E6;
 		height:auto;
 	}
 .button2:hover {
-border: 1px solid #1AB0CE;
-color: #1AB0CE;
+	border: 1px solid #1AB0CE;
+	color: #1AB0CE;
 }
 
 #button2{
-	
 	width:74%;
-text-align:left;
-float:left;
+	text-align:left;
+	float:left;
 
 }	
 	.left{
@@ -981,15 +974,15 @@ float:left;
 		}
 	.leftp{
 		width:18%;
-	float:left;	
-	margin-left:1%;
-	height:auto;
+		float:left;	
+		margin-left:1%;
+		height:auto;
 	}
 	.right{
 		width:10%;
-	float:right;
-margin-left:1%;	
-height:auto;
+		float:right;
+		margin-left:1%;	
+		height:auto;
 	}	
 	#phonef{
 	width:80%;	
@@ -1007,22 +1000,21 @@ height:auto;
     padding: 12px 20px 12px 40px;
 }
 #search{
-float:right;
+	float:right;
 	width:20%;
 }
 #H1{
-width:78%;
+	width:78%;
 	position: absolute;
-       
-		margin-top:69px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		height:auto;	
+    margin-top:69px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	height:auto;	
 }
-#H2{
-width:48%;
-	position: absolute;
+	#H2{
+		width:48%;
+		position: absolute;
         margin-top:116px;
         left: 50%;
         margin-right: -50%;
@@ -1040,7 +1032,6 @@ display:none;
 	
 
 .first{
-	background-color:pink;
 	max-width:460px;
 	min-height:600px;
 }
@@ -1103,11 +1094,11 @@ border:	#DCE1E6;
 		height:auto;
 	}
 	.littlef{
-		float:left;
+	float:left;
 	width:15%;
-margin-left:1%;
-margin-right:1%;
-border:	#DCE1E6;
+	margin-left:1%;
+	margin-right:1%;
+	border:	#DCE1E6;
 	}
 	.row2{
 	width:100%;	
@@ -1196,15 +1187,15 @@ border:	#DCE1E6;
 				
 				}
 				.button2:hover {
-border: 1px solid #1AB0CE;
-color: #1AB0CE;
+			border: 1px solid #1AB0CE;
+			color: #1AB0CE;
 }
 
 #button2{
 	
 	width:74%;
-text-align:left;
-float:left;
+	text-align:left;
+	float:left;
 
 }	
 	.left{
@@ -1213,19 +1204,19 @@ float:left;
 		}
 	.leftp{
 		width:18%;
-	float:left;	
-	margin-left:1%;
-	height:auto;
+		float:left;	
+		margin-left:1%;
+		height:auto;
 	}
 	.right{
 		width:10%;
-	float:right;
-margin-left:1%;	
-height:auto;
+		float:right;
+		margin-left:1%;	
+		height:auto;
 	}
 	#imgbutt{
 		width:14%;
-	position: absolute;
+		position: absolute;
         top: 60%;
         left: 50%;
         margin-right: -50%;
@@ -1234,7 +1225,7 @@ height:auto;
 	}
 	.imgcall{
 		width:9%;
-	position: absolute;
+		position: absolute;
         margin-top:221px;
         left: 91%;
         margin-right: -50%;
@@ -1263,23 +1254,22 @@ height:auto;
 	text-align:center;	
 	}	
 		#H1{
-width:78%;
-	position: absolute;
-       
-		margin-top:128px;
+		width:78%;
+		position: absolute;
+       	margin-top:128px;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
 		height:auto;	
 }
 #H2{
-width:48%;
+	width:48%;
 	position: absolute;
-        margin-top:160px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		height:auto;	
+	margin-top:160px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	height:auto;	
 }
 #imgLine {
     width: 9%;
@@ -1307,7 +1297,7 @@ width:48%;
     padding: 12px 20px 12px 40px;
 }
 #search{
-float:right;
+	float:right;
 	width:20%;
 }
 #shop{
@@ -1320,8 +1310,8 @@ margin:0 10px 10px 0;
 height:auto;
 	}
 	#Phonesimg{
-	width:15%;		
-	position: absolute;
+		width:15%;		
+		position: absolute;
         top: 22%;
         left: 74%;
         margin-right: -50%;
