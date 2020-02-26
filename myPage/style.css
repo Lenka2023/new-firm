@@ -118,7 +118,13 @@ margin-right:1%;
 	.textdown{
 	text-align:center;	
 	}
+	.phone:after{
+	content: "\f13a";
+  margin-left: 8px;
+  font-family: "Font Awesome 5 Free";	
+	}
 	.phone{
+	
 	font-family:Clear Sans;
 	font-weight:bold;
 	font-size:16px;
@@ -334,8 +340,22 @@ height:auto;
 		height:auto;
 	}
 	#phone{
-	width:89%;	
+	position: relative;
+	width:105%;	
 	}
+	.submenu {
+ position: absolute;
+  
+ 
+  z-index: 99;
+  width: 180px;
+  visibility: hidden;
+}
+
+
+#phone:hover .submenu {
+  visibility: visible;
+}
 	#phonef{
 	width:80%;	
 	}
