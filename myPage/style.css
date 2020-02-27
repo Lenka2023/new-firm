@@ -48,7 +48,7 @@ footer{
 	}
 	header{
 	width: 100%;
-	height:163px;
+	height:130px;
 	}
 	
 	.product{
@@ -147,24 +147,7 @@ color: #FFFFFF;
 
 
 	}
-	.makecallbutton{
-	width:120px;
-height:120px;
-position: absolute;
-left: 450px;
-right: 100px;
-top: 655px;
-bottom: 0%;
-background: #1AB0CE;
-border-radius: 50%;					
-				}
-#makecallbutton{
-font-family: Clear Sans;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: #FFFFFF;	
-				}
+	
 	.orderbutton{
 width:200px;
 height:48px;
@@ -361,13 +344,31 @@ color: #1AB0CE;
 	.submenu {
  position: absolute;
    list-style-type: none; 
- 
+ background: #FFFFFF;
   z-index: 99;
   width: 180px;
   visibility: hidden;
 }
 
-
+	.makecallbutton{
+	width:120px;
+height:120px;
+position: absolute;
+left: 1024px;
+right: 100px;
+top: 620px;
+bottom: 0%;
+background: #1AB0CE;
+border-radius: 50%;					
+				}
+#makecallbutton{
+font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;	
+				}
+	
 #phone:hover .submenu {
   visibility: visible;
 }
@@ -437,11 +438,11 @@ color: #FFFFFF;
 } 
 header{
 	width: 100%;
-	height:163px;
+	height:130px;
 	}
  .map{
 	width: 100%;
-	height:310px;
+	height:585px;
 	}
 	
 .littlep{
@@ -463,7 +464,7 @@ header{
 	height:200px;	
 	}
 	.row1p{
-	
+	height:46px;
 	margin-left:10%;
 	}
 	.news{
@@ -494,7 +495,7 @@ header{
 	background-color: #DCE1E6;
 }
 .button2 {
-					
+	height:46px;				
 	 display: inline; /* Отображать как строчный элемент */
      font-family:Clear Sans;
 	font-weight:bold;
@@ -507,8 +508,78 @@ header{
     border: 1px solid #E8EDF2;
 				}
 				#phone{
-	width:30%;	
+	position: relative;
+	width:105%;	
 	}
+	.submenu {
+ position: absolute;
+   list-style-type: none; 
+ background: #FFFFFF;
+  z-index: 99;
+  width: 180px;
+  visibility: hidden;
+}
+.phone:after{
+	content: "\f13a";
+  margin-left: 8px;
+  font-family: "Font Awesome 5 Free";	
+	}
+	.phone{
+	
+	font-family:Clear Sans;
+	font-weight:bold;
+	font-size:16px;
+	line-height:19px;
+	text-align:left;
+	margin-left: 10px;	
+	margin-right: 10px;	
+	}
+	.delivery{
+		background-image:url(img/Rectangle.png);
+		width:100%;
+		height:500px;
+	}
+	#orderbutt{
+	font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+
+
+	}
+	.makecallbutton{
+	width:120px;
+height:120px;
+position: absolute;
+left: 640px;
+top: 620px;
+bottom: 0%;
+background: #1AB0CE;
+border-radius: 50%;					
+				}
+#makecallbutton{
+font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;	
+				}
+	.orderbutton{
+width:200px;
+height:48px;
+position: absolute;
+left: 450px;
+right: 0%;
+top: 500px;
+bottom: 0%;
+background: #1AB0CE;
+border-radius: 2px;	
+	}
+
+#phone:hover .submenu {
+  visibility: visible;
+}
 	.littlen{
 	float:left;
 	width:25%;
@@ -550,15 +621,7 @@ header{
 	.textdown{
 	text-align:center;	
 	}
-	.phone{
-	font-family:Clear Sans;
-	font-weight:bold;
-	font-size:10px;
-	line-height:19px;
-	text-align:left;
-	margin-left: 10px;	
-	margin-right: 10px;	
-	}
+	
 .row2{
 	width:100%;	
 	float:left;
@@ -678,8 +741,15 @@ header{
 		height:auto;
 	}
 	#phone{
-	width:60%;	
+	position: relative;
+	width:105%;	
 	}
+	
+
+
+#phone:hover .submenu {
+  visibility: visible;
+}
 	#phonef{
 	width:80%;	
 	}
@@ -700,22 +770,39 @@ header{
 	width:20%;
 }
 #H1{
-	width:78%;
-	position: absolute;
-	margin-top:113px;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
-	height:auto;	
+	/* Оперативная печать полиграфии от 1 дня! */
+
+position: absolute;
+height: 78px;
+left: 42px;
+top: 316px;
+
+font-family: Clear Sans;
+font-size: 57px;
+line-height: 67px;
+text-align: center;
+
+color: #FFFFFF;
+
+	
 }
 #H2{
-	width:48%;
-	position: absolute;
-	margin-top:164px;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
-	height:auto;	
+		/* Доставка в любой город Украины */
+
+position: absolute;
+left: 40px;
+right: 0%;
+top: 460px;
+bottom: 0%;
+
+font-family: Clear Sans;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
 }
 }	
 /*планшеты*/
@@ -727,15 +814,16 @@ header{
 	
 }
 .row1p{
+	height:46px;
 	margin-left:2%;
 	}
 	header{
 	width: 100%;
-	height:163px;
+	height:130px;
 	}
 	.map{
 	width: 100%;
-	height:281px;
+	height:580px;
 	}
 .littlep{
 	float:left;
@@ -933,7 +1021,7 @@ margin-right:1%;
 	text-align:center;	
 	}
 .button2 {
-					
+	height:46px;				
 	 display: inline; /* Отображать как строчный элемент */
      font-family:Clear Sans;
 	font-weight:bold;
@@ -946,16 +1034,78 @@ margin-right:1%;
     border: 1px solid #E8EDF2;
 				}
 				#phone{
-	width:30%;	
+	position: relative;
+	width:105%;	
+	}
+	.submenu {
+ position: absolute;
+   list-style-type: none; 
+ background: #FFFFFF;
+  z-index: 99;
+  width: 180px;
+  visibility: hidden;
+}
+
+
+#phone:hover .submenu {
+  visibility: visible;
+}
+	.phone:after{
+	content: "\f13a";
+  margin-left: 8px;
+  font-family: "Font Awesome 5 Free";	
 	}
 	.phone{
+	
 	font-family:Clear Sans;
 	font-weight:bold;
-	font-size:10px;
+	font-size:16px;
 	line-height:19px;
 	text-align:left;
 	margin-left: 10px;	
 	margin-right: 10px;	
+	}
+	.delivery{
+		background-image:url(img/Rectangle.png);
+		width:100%;
+		height:500px;
+	}
+	#orderbutt{
+	font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+
+
+	}
+	.makecallbutton{
+	width:120px;
+height:120px;
+position: absolute;
+left: 450px;
+top: 620px;
+bottom: 0%;
+background: #1AB0CE;
+border-radius: 50%;					
+				}
+#makecallbutton{
+font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;	
+				}
+	.orderbutton{
+width:200px;
+height:48px;
+position: absolute;
+left: 250px;
+right: 0%;
+top: 520px;
+bottom: 0%;
+background: #1AB0CE;
+border-radius: 2px;	
 	}
 
 .imgcall{
@@ -1024,22 +1174,39 @@ margin-right:1%;
 	width:20%;
 }
 #H1{
-	width:78%;
-	position: absolute;
-    margin-top:13%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
-	height:auto;	
+	/* Оперативная печать полиграфии от 1 дня! */
+
+position: absolute;
+height: 78px;
+left: 42px;
+top: 316px;
+
+font-family: Clear Sans;
+font-size: 57px;
+line-height: 67px;
+text-align: center;
+
+color: #FFFFFF;
+
+	
 }
-	#H2{
-		width:48%;
-		position: absolute;
-        margin-top:20%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		height:auto;	
+#H2{
+		/* Доставка в любой город Украины */
+
+position: absolute;
+left: 40px;
+right: 0%;
+top: 460px;
+bottom: 0%;
+
+font-family: Clear Sans;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
 }
 .none{
 display:none;	
@@ -1056,17 +1223,18 @@ display:none;
 	min-height:600px;
 }
 .row1p{
+	height:46px;
 	margin-left:1%;
 	float:left;
 	}
 .map{
 	width: 100%;
-	height:281px;	
+	height:540px;	
 		}
 	
 	header{
 	width: 100%;
-	height:163px;
+	height:130px;
 	}
 	
 	.product{
@@ -1257,22 +1425,39 @@ border:	#DCE1E6;
 	text-align:center;	
 	}	
 		#H1{
-		width:78%;
-		position: absolute;
-       	margin-top:30%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		height:auto;	
+	/* Оперативная печать полиграфии от 1 дня! */
+
+position: absolute;
+height: 78px;
+left: 42px;
+top: 180px;
+
+font-family: Clear Sans;
+font-size: 57px;
+line-height: 67px;
+text-align: center;
+
+color: #FFFFFF;
+
+	
 }
 #H2{
-	width:48%;
-	position: absolute;
-	margin-top:37%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
-	height:auto;	
+		/* Доставка в любой город Украины */
+
+position: absolute;
+left: 40px;
+right: 0%;
+top: 440px;
+bottom: 0%;
+
+font-family: Clear Sans;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
 }
 
 #phonef{
@@ -1333,7 +1518,7 @@ footer{
 	background-color: #DCE1E6;
 }
 .button2 {
-					
+	height:46px;				
 	 display: inline; /* Отображать как строчный элемент */
      font-family:Clear Sans;
 	font-weight:bold;
@@ -1346,16 +1531,79 @@ footer{
     border: 1px solid #E8EDF2;
 				}
 				#phone{
-	width:100%;	
+	position: relative;
+	width:105%;	
+	}
+	.submenu {
+ position: absolute;
+   list-style-type: none; 
+ background: #FFFFFF;
+  z-index: 99;
+  width: 180px;
+  visibility: hidden;
+}
+
+
+#phone:hover .submenu {
+  visibility: visible;
+}
+	.phone:after{
+	content: "\f13a";
+  margin-left: 8px;
+  font-family: "Font Awesome 5 Free";	
 	}
 	.phone{
+	
 	font-family:Clear Sans;
 	font-weight:bold;
-	font-size:10px;
+	font-size:16px;
 	line-height:19px;
 	text-align:left;
 	margin-left: 10px;	
 	margin-right: 10px;	
+	}
+	.delivery{
+		background-image:url(img/Rectangle.png);
+		width:100%;
+		height:500px;
+	}
+	#orderbutt{
+	font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+
+
+	}
+	.makecallbutton{
+	width:120px;
+height:120px;
+position: absolute;
+left: 295px;
+right: 100px;
+top: 570px;
+bottom: 0%;
+background: #1AB0CE;
+border-radius: 50%;					
+				}
+#makecallbutton{
+font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;	
+				}
+	.orderbutton{
+width:200px;
+height:48px;
+position: absolute;
+left: 99px;
+right: 0%;
+top: 480px;
+bottom: 0%;
+background: #1AB0CE;
+border-radius: 2px;	
 	}
 	.none{
 display:none;	
